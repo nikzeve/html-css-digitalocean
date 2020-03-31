@@ -3,3 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    padding-top: 50px;
+}
+
+#header-top span {
+    padding: 10px ;
+    margin-right: 10px;
+    border-radius: 5%;
+
+    background-color: #00d7d2;
+}
