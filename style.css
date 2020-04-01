@@ -7,10 +7,69 @@ body {
     padding-top: 50px;
 }
 
+img {
+    width: 172px;
+}
+
+#header-top .container-fluid {
+    max-width: none;
+    font-size: 12px;
+}
+
 #header-top span {
-    padding: 10px ;
+    padding: 3px 5px;
     margin-right: 10px;
     border-radius: 5%;
-
     background-color: #00d7d2;
+}
+
+@media (max-width: 1049px){
+#header-top .navbar-right {
+    display: none;
+    }
+}
+
+#header-bottom {
+    margin-bottom: 0;
+}
+
+#header-bottom .container-fluid {
+    padding: 10px 0;
+}
+
+#header-bottom .navbar-brand {
+    padding: 6px 20px;
+    margin-right: 30px;
+}
+
+#header-bottom .btn {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin-right: 30px;
+    border: 1px solid #0069ff;
+    border-radius: 8px;
+    color: #0069ff;
+}
+
+#header-bottom .btn:hover {
+    background-color: #0069ff;
+    color: white;
+}
+
+@media (max-width: 1049px){
+#header-bottom .container-fluid {
+    background: none;
+    }
+}
+
+#jumbotron {
+    color: white;
+    background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fwww.digitalocean.com%2Fassets%2Fmedia%2Fhomepage%2Fbg-home-1-d54581d7.jpg);
+    background-size: cover;
+}
+
+#form-area {
+    background-color: white;
+    color: black;
 }
