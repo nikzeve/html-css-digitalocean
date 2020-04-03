@@ -11,6 +11,11 @@ img {
     width: 172px;
 }
 
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 #header-top .container-fluid {
     max-width: none;
     font-size: 12px;
@@ -21,6 +26,12 @@ img {
     margin-right: 10px;
     border-radius: 5%;
     background-color: #00d7d2;
+    overflow: hidden;
+}
+
+#header-top .navbar-left {
+    width: 700px;
+    overflow: hidden;
 }
 
 @media (max-width: 1049px){
@@ -39,7 +50,6 @@ img {
 
 #header-bottom .navbar-brand {
     padding: 6px 20px;
-    margin-right: 30px;
 }
 
 #header-bottom .btn {
@@ -57,19 +67,47 @@ img {
     color: white;
 }
 
-@media (max-width: 1049px){
-#header-bottom .container-fluid {
-    background: none;
-    }
-}
-
 #jumbotron {
     color: white;
     background-image: url(https://slack-imgs.com/?c=1&o1=ro&url=https%3A%2F%2Fwww.digitalocean.com%2Fassets%2Fmedia%2Fhomepage%2Fbg-home-1-d54581d7.jpg);
     background-size: cover;
 }
 
+#jumbotron h2 {
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
 #form-area {
     background-color: white;
     color: black;
+    border-radius: 2%;
+}
+
+#form-area .form-group {
+    height: 48px;
+}
+
+#create-btn {
+    background-color: #0069ff;
+    margin-bottom: 15px;
+    color: white;
+    height: 48px;
+}
+
+#login-btn .btn {
+    background-color: #f2f8ff;
+    border: 1px solid rgba(0,105,255,.2);
+    height: 48px;
+    line-height: 35px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+#login-btn .fab {
+    margin-right: 10px;
+
 }
